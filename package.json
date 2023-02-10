@@ -1,0 +1,16 @@
+{
+  "name": "remix-monorepo-starter",
+  "version": "0.0.0",
+  "description": "A  typeScript monorepo starter template for remix apps with tailwind and prisma, node + trpc backend and a shared react ui library",
+  "keywords": [
+    "monorepo",
+    "typescript",
+    "remix",
+    "tailwind",
+    "node",
+    "prisma",
+    "trpc"
+  ],
+  "author": "Chandan Kumar Mandal <chankruze@gmail.com>",
+  "license": "MIT"
+}
