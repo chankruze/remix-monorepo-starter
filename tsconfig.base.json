@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ES2019"],
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "target": "ES2019",
+    "strict": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    // Remix takes care of building everything in `remix build`.
+    "noEmit": true
+    // "paths": {
+    //   "~/*": ["./app/*"]
+    // },
+  },
+  "exclude": ["node_modules", "tmp"],
+  "references": [
+    {
+      "path": "apps/admin/tsconfig.json"
+    },
+    {
+      "path": "apps/portal/tsconfig.json"
+    },
+    {
+      "path": "apps/server/tsconfig.json"
+    }
+  ]
+}
