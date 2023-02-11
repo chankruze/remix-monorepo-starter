@@ -16,7 +16,8 @@
   "scripts": {
     "admin": "pnpm --filter @demo/admin",
     "portal": "pnpm --filter @demo/portal",
-    "backend": "pnpm --filter @demo/backend"
+    "backend": "pnpm --filter @demo/backend",
+    "ui-kit": "pnpm --filter @demo/ui-kit"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.40.0",
